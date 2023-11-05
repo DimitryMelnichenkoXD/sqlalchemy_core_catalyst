@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='sqlalchemy_catalyst',
+    name='sqlalchemy_core_catalyst',
     version='0.1',
     packages=find_packages(),
     install_requires=[
