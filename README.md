@@ -1,4 +1,4 @@
-# SQLAlchemyCoreCatalyst
+# SQLAlchemy-Core-Catalyst
 
 Your Library Name is a Python library that simplifies interactions with databases using SQLAlchemy and Pydantic. It provides a convenient way to define database models and perform CRUD (Create, Read, Update, Delete) operations with ease.
 

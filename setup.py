@@ -11,7 +11,7 @@ with open(os.path.join(PWD, "README.md"), encoding="utf-8") as f:
 
 setup(
     name='sqlalchemy_core_catalyst',
-    version='0.3',
+    version='0.4',
     packages=find_packages(),
     install_requires=[
         'greenlet==3.0.1',
