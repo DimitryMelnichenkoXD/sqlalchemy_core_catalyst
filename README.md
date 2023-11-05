@@ -64,5 +64,39 @@ async def run():
 asyncio.run(run())
 ```
 ***
-Try out and explore various examples in our playground [here]().
+Try out and explore various examples in our playground [here](https://github.com/DimitryMelnichenkoXD/sqlalchemy_core_catalyst/tree/main/examples).
 ***
+
+## Features
+
+- **Database Interaction**: Simplify working with databases using SQLAlchemy. Define database tables with Pydantic models and perform queries with ease.
+
+- **Easy Configuration**: Configure the library with simple parameters to connect to your database. No need for complex setup procedures.
+
+- **Pydantic Integration**: Seamlessly integrate Pydantic models to define the structure of your data.
+
+- **Simplified Queries**: Execute database queries with a straightforward and intuitive API, reducing the complexity of SQL.
+
+- **Asynchronous Support**: Utilize asynchronous programming for efficient database interactions.
+
+- **Highly Extensible**: Customize and extend the library to suit your specific project requirements.
+
+- **Documentation**: Comprehensive documentation and examples to guide you through using the library effectively.
+
+- **Open Source**: Licensed under the MIT License, allowing you to use and modify the library freely.
+
+- **Community Support**: Active community and support for questions and issues.
+
+These features make Your Library Name a powerful tool for managing database interactions, providing simplicity, flexibility, and efficiency.
+
+## Documentation
+
+For in-depth documentation, code examples, and additional resources, please visit the [official documentation](https://your-documentation-link.com).
+
+## License
+
+This project is open-source and licensed under the MIT License. For complete details, see the [LICENSE](LICENSE) file included with the project.
+
+## Acknowledgments
+
+Please feel free to customize and expand this README according to the specific features, use cases, and documentation links associated with your library.

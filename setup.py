@@ -6,7 +6,7 @@ with open('README.md', 'r', encoding='utf-8') as f:
 
 setup(
     name='sqlalchemy_core_catalyst',
-    version='0.1',
+    version='0.2',
     packages=find_packages(),
     install_requires=[
         'greenlet==3.0.1',
