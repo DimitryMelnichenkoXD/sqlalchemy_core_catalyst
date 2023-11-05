@@ -11,11 +11,12 @@ class Database:
         return cls._instance
 
     @classmethod
-    def init(cls, db_user: str, db_pass: str, db_host: str, db_name: str):
+    def init(cls, db_user: str, db_pass: str, db_host: str, db_name: str, db_type: str = "postgresql",
+             db_engine: str = "asyncpg"):
         """
         Метод для инициализации ключевых данных для подключения базы данных
         """
-        url = f"postgresql+asyncpg://{db_user}:{db_pass}@{db_host}/{db_name}"
+        url = f"{db_type}+{db_engine}://{db_user}:{db_pass}@{db_host}/{db_name}"
         cls._engine = create_async_engine(url, echo=False)
 
     @classmethod

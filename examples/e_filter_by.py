@@ -1,19 +1,3 @@
-# SQLAlchemyCoreCatalyst
-
-Your Library Name is a Python library that simplifies interactions with databases using SQLAlchemy and Pydantic. It provides a convenient way to define database models and perform CRUD (Create, Read, Update, Delete) operations with ease.
-
-## Installation
-
-You can install Your Library Name using `pip`:
-
-```shell
-pip install sqlalchemy-core-catalyst
-```
-## Getting Started
-
-Here is an example of how to use Your Library Name to interact with a database:
-
-```python
 import asyncio
 
 from pydantic import BaseModel
@@ -62,7 +46,3 @@ async def run():
 
 
 asyncio.run(run())
-```
-***
-Try out and explore various examples in our playground [here]().
-***
