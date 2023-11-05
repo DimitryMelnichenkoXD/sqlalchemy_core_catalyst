@@ -9,6 +9,15 @@ You can install Your Library Name using `pip`:
 ```shell
 pip install sqlalchemy-core-catalyst
 ```
+
+## GitHub Repository
+
+Explore the source code and contribute to the development of SQLAlchemyCoreCatalyst on GitHub.
+
+- **GitHub Repository**: [GITHUB](https://github.com/DimitryMelnichenkoXD/sqlalchemy_core_catalyst/tree/main)
+
+Feel free to fork the repository, open issues, and submit pull requests to help improve this project.
+
 ## Getting Started
 
 Here is an example of how to use Your Library Name to interact with a database:
@@ -91,11 +100,11 @@ These features make Your Library Name a powerful tool for managing database inte
 
 ## Documentation
 
-For in-depth documentation, code examples, and additional resources, please visit the [official documentation](https://your-documentation-link.com).
+For in-depth documentation, code examples, and additional resources, please visit the official documentation.
 
 ## License
 
-This project is open-source and licensed under the MIT License. For complete details, see the [LICENSE](LICENSE) file included with the project.
+This project is open-source and licensed under the MIT License. For complete details, see the LICENSE file included with the project.
 
 ## Acknowledgments
 

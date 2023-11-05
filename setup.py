@@ -1,12 +1,17 @@
+import os
+
 from setuptools import setup, find_packages
 
-with open('README.md', 'r', encoding='utf-8') as f:
+PWD = os.path.abspath(os.path.dirname(__file__))
+
+# Import the README and use it as the long-description.
+with open(os.path.join(PWD, "README.md"), encoding="utf-8") as f:
     long_description = f.read()
 
 
 setup(
     name='sqlalchemy_core_catalyst',
-    version='0.2',
+    version='0.3',
     packages=find_packages(),
     install_requires=[
         'greenlet==3.0.1',
@@ -16,4 +21,5 @@ setup(
     ],
     description='Library for easy interaction with SQLAlchemy and Pydantic.',
     long_description=long_description,
+    long_description_content_type="text/markdown",
 )
