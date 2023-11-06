@@ -19,4 +19,4 @@ class DeclareTable(BaseModel, Query):
         return Query(table=cls._table, parse_class=cls)
 
     async def update_self(self):
-        return await self.update(self.dict(), id=self.id)
+        return await self.query().update(self.dict(), id=self.id)
