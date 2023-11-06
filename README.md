@@ -1,6 +1,6 @@
 # SQLAlchemy-Core-Catalyst
 
-Your Library Name is a Python library that simplifies interactions with databases using SQLAlchemy and Pydantic. It provides a convenient way to define database models and perform CRUD (Create, Read, Update, Delete) operations with ease.
+SQLAlchemy-Core-Catalyst is a Python library that simplifies interactions with databases using SQLAlchemy and Pydantic. It provides a convenient way to define database models and perform CRUD (Create, Read, Update, Delete) operations with ease.
 
 ## Installation
 
@@ -20,7 +20,7 @@ Feel free to fork the repository, open issues, and submit pull requests to help 
 
 ## Getting Started
 
-Here is an example of how to use Your Library Name to interact with a database:
+Here is an example of how to use SQLAlchemy-Core-Catalyst to interact with a database:
 
 ```python
 import asyncio
